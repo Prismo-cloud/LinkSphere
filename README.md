@@ -1,56 +1,59 @@
-LinkSphere
+# LinkSphere
 
-LinkSphere is a user-friendly interface designed for interacting with ChromaDB. It allows users to easily manage and explore their collections, providing an intuitive way to view and manipulate data stored within ChromaDB.
-Features
+**LinkSphere** is a user-friendly interface built for interacting with **ChromaDB**. Users can connect to the database, manage collections, and view data effortlessly. With a clean and simple design, LinkSphere helps you organize and explore your data.
 
-    Address Connection: Enter the address to connect to your ChromaDB instance.
+This project is still under development and new features are being added and improved continuously. Whether you're just starting or an experienced user, LinkSphere makes managing your collections simple and efficient.
 
-    Collection Management: Add and delete collections as needed.
+---
 
-    View Collection Data: Select a collection to view its data directly from the interface.
+## Features
 
-Installation
+- **ChromaDB Connection**: Connect to your ChromaDB instance by entering the address.
+- **Collection Management**: Easily add and delete collections.
+- **View Collection Data**: Select a collection to directly access and view its data.
+- **Data Visualization**: Built-in support for visualizing data in a simple and clean interface.
 
-To get started with LinkSphere, clone this repository to your local machine:
+---
 
-git clone https://github.com/yourusername/LinkSphere.git
+## Preview
 
-Next, navigate into the project directory and install the required dependencies:
+Here is a quick preview of the **LinkSphere** interface:
 
-cd LinkSphere
-pip install -r requirements.txt
+![Screenshot 1](assets/111.png)
 
-Usage
+![Screenshot 2](assets/222.png)
 
-    Connect to ChromaDB:
+![Screenshot 3](assets/333.png)
 
-        Enter the address for your ChromaDB instance in the designated field.
+![Screenshot 4](assets/444.png)
 
-    Manage Collections:
+![Screenshot 5](assets/555.png)
 
-        Add new collections with ease.
+---
 
-        Delete any unnecessary collections.
+## Installation
 
-    View Collection Data:
+To get started with **LinkSphere**, follow these simple steps:
 
-        Once a collection is selected, view its data in a readable format.
+1. **Clone the repository:**
+   
+   ```bash
+   git clone https://github.com/yourusername/LinkSphere.git
 
-Example
+2. Navigate to the project directory:
 
-After connecting to your ChromaDB instance, you can interact with the collections through the UI. For example, to view data from a specific collection, just click on the collection name and the data will be displayed.
-Contributing
+   cd LinkSphere
 
-We’re working on improving LinkSphere, and we’d love to have your help! If you have any ideas or suggestions, feel free to open an issue or submit a pull request.
-Areas for Improvement:
+3. Install the required dependencies:
 
-    Collection Data Management: Enhancing how users can manipulate collection data.
+   pip install -r requirements.txt
 
-    User Interface Enhancements: Improving the layout and adding additional features to make the tool more intuitive.
+4. Run the application:
 
-    Performance Optimization: Ensuring smooth interaction with larger datasets.
+   streamlit run LinkSphere.py
 
-Help & Support
+Help
 
-If you need help or have any questions regarding LinkSphere, don’t hesitate to reach out. We’re here to help you!
-“Don’t Panic!” – The Hitchhiker’s Guide to the Galaxy
+This project is still being developed. If you'd like to contribute or have suggestions, feel free to reach out!
+
+"Don't Panic!" – The Hitchhiker’s Guide to the Galaxy
